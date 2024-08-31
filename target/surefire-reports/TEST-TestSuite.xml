@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="19.14" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/princemaini/Documents/Pavansir api automation/target/test-classes:/Users/princemaini/Documents/Pavansir api automation/target/classes:/Users/princemaini/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/princemaini/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/princemaini/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/princemaini/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/princemaini/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/princemaini/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/princemaini/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/princemaini/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/princemaini/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/princemaini/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/princemaini/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/princemaini/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/princemaini/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/princemaini/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/princemaini/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/princemaini/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/princemaini/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/princemaini/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/princemaini/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/princemaini/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/princemaini/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/princemaini/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/princemaini/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/princemaini/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/princemaini/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/princemaini/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/princemaini/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/princemaini/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/princemaini/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/princemaini/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/princemaini/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/princemaini/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/princemaini/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/princemaini/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/princemaini/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/princemaini/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/princemaini/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/princemaini/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/princemaini/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/princemaini/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/princemaini/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/princemaini/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/princemaini/Documents/Pavansir api automation/target/surefire/surefirebooter-20240828235133753_3.jar /Users/princemaini/Documents/Pavansir api automation/target/surefire 2024-08-28T23-51-33_705-jvmRun1 surefire-20240828235133753_1tmp surefire_0-20240828235133753_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/princemaini/Documents/Pavansir api automation/target/test-classes:/Users/princemaini/Documents/Pavansir api automation/target/classes:/Users/princemaini/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/princemaini/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/princemaini/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/princemaini/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/princemaini/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/princemaini/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/princemaini/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/princemaini/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/princemaini/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/princemaini/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/princemaini/.m2/repository/io/rest-assured/json-schema-validator/5.4.0/json-schema-validator-5.4.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/princemaini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/princemaini/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/princemaini/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/princemaini/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/princemaini/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/princemaini/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/princemaini/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/princemaini/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/princemaini/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/princemaini/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/princemaini/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/princemaini/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/princemaini/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/princemaini/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/princemaini/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/princemaini/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/princemaini/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/princemaini/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/princemaini/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/princemaini/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/princemaini/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/princemaini/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/princemaini/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/princemaini/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/princemaini/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/princemaini/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/princemaini/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/princemaini/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/princemaini/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/princemaini/.m2/repository/org/apache/logging/log4j/log4j-api/2.18.0/log4j-api-2.18.0.jar:/Users/princemaini/.m2/repository/org/apache/logging/log4j/log4j-core/2.18.0/log4j-core-2.18.0.jar:/Users/princemaini/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/princemaini/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/princemaini/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/princemaini/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/princemaini/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/princemaini/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/princemaini"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/princemaini/Documents/Pavansir api automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/princemaini/Documents/Pavansir api automation/target/surefire/surefirebooter-20240828235133753_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="user.name" value="princemaini"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/princemaini/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/tf/t565_rmd6fn6_fzs5g0vzyjm0000gn/T/"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/Users/princemaini/Documents/Pavansir api automation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/princemaini/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testStagepost[org.testng.TestRunner@7c20cdd0](1)" classname="api.test.UserTests2" time="4.742">
+    <system-out><![CDATA[INFO
+23.51.39.530 [main] INFO  api.test.UserTests2 - *************Creating the stage**************
+66cf6ab7b64b52cf2c47f3d1
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 28 Aug 2024 18:21:43 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 275
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"113-VgsnrMwcaFZvJSrjBfma3XaQzio"
+
+{
+    "data": {
+        "name": "Darren",
+        "status": "ACTIVE",
+        "createdBy": "66573cdb68a601817ff11f45",
+        "isDeleted": false,
+        "_id": "66cf6ab7b64b52cf2c47f3d1",
+        "createdAt": "2024-08-28T18:21:43.687Z",
+        "updatedAt": "2024-08-28T18:21:43.687Z",
+        "__v": 0
+    },
+    "message": "Stage created successfully!",
+    "success": true
+}
+23.51.44.267 [main] INFO  api.test.UserTests2 - ************Stage created successfully*********
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testStageupdate[org.testng.TestRunner@7c20cdd0](1)" classname="api.test.UserTests2" time="1.1">
+    <system-out><![CDATA[23.51.44.272 [main] INFO  api.test.UserTests2 - *************Updating the stage**************
+66cf6ab7b64b52cf2c47f3d1
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 28 Aug 2024 18:21:45 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 277
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"115-ApUmmRZdSaFP9E8F1AUWXy5MOMk"
+
+{
+    "data": {
+        "_id": "66cf6ab7b64b52cf2c47f3d1",
+        "name": "Gertrude",
+        "status": "ACTIVE",
+        "createdBy": "66573cdb68a601817ff11f45",
+        "isDeleted": false,
+        "createdAt": "2024-08-28T18:21:43.687Z",
+        "updatedAt": "2024-08-28T18:21:45.169Z",
+        "__v": 0
+    },
+    "message": "Stage updated successfully!",
+    "success": true
+}
+23.51.45.370 [main] INFO  api.test.UserTests2 - *************Stage updated successfully**************
+]]></system-out>
+  </testcase>
+  <testcase name="testStagedelete[org.testng.TestRunner@7c20cdd0](1)" classname="api.test.UserTests2" time="1.138">
+    <system-out><![CDATA[23.51.45.374 [main] INFO  api.test.UserTests2 - *************Deleting the stage**************
+Extracted id ater hitting post request66cf6ab7b64b52cf2c47f3d1
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 28 Aug 2024 18:21:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 156
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"9c-WpQxKxo9DxmtA2kEv8c3EYKLwV8"
+
+{
+    "data": {
+        "acknowledged": true,
+        "modifiedCount": 1,
+        "upsertedId": null,
+        "upsertedCount": 0,
+        "matchedCount": 1
+    },
+    "message": "Stage deleted successfully!",
+    "success": true
+}
+23.51.46.510 [main] INFO  api.test.UserTests2 - *************Stage deleted successfully**************
+]]></system-out>
+  </testcase>
+  <testcase name="testStageget" classname="api.test.UserTests2" time="1.292">
+    <system-out><![CDATA[23.51.46.513 [main] INFO  api.test.UserTests2 - *************Fetching the stages**************
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 28 Aug 2024 18:21:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2960
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"b90-vcn8UO0NAjoK+W3TfvK+D65qKg4"
+
+{
+    "data": [
+        {
+            "_id": "66cf0368819e65a63e57dd8e",
+            "name": "Heath",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-28T11:00:56.055Z",
+            "updatedAt": "2024-08-28T11:00:57.938Z",
+            "__v": 0
+        },
+        {
+            "_id": "66cecc5b819e65a63e57dd6a",
+            "name": "Merrill",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-28T07:06:03.876Z",
+            "updatedAt": "2024-08-28T07:06:05.817Z",
+            "__v": 0
+        },
+        {
+            "_id": "66cecc26819e65a63e57dd61",
+            "name": "Allena",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-28T07:05:10.838Z",
+            "updatedAt": "2024-08-28T07:05:13.077Z",
+            "__v": 0
+        },
+        {
+            "_id": "66b6f7eda224b638e96dfda8",
+            "name": "Stage new",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-10T05:17:33.273Z",
+            "updatedAt": "2024-08-10T05:17:33.273Z",
+            "__v": 0
+        },
+        {
+            "_id": "66b6f6e7a224b638e96dfda5",
+            "name": "Stage11aug",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-10T05:13:11.745Z",
+            "updatedAt": "2024-08-10T05:13:11.745Z",
+            "__v": 0
+        },
+        {
+            "_id": "66b42f79dd20a3bcb5dee1c7",
+            "name": "Stage Testing 8aug",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-08T02:37:45.139Z",
+            "updatedAt": "2024-08-08T02:37:45.139Z",
+            "__v": 0
+        },
+        {
+            "_id": "66b4280ddd20a3bcb5dee1be",
+            "name": "Stage testing",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-08T02:06:05.823Z",
+            "updatedAt": "2024-08-08T02:06:05.823Z",
+            "__v": 0
+        },
+        {
+            "_id": "66ab36f27638924e26bfffd2",
+            "name": "Testing stage api",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-01T07:19:14.884Z",
+            "updatedAt": "2024-08-01T07:19:14.884Z",
+            "__v": 0
+        },
+        {
+            "_id": "66ab30627638924e26bfffbe",
+            "name": "Test 1 aug",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-08-01T06:51:14.919Z",
+            "updatedAt": "2024-08-01T06:51:14.919Z",
+            "__v": 0
+        },
+        {
+            "_id": "66a8c35fa11b7dacc4a3ca64",
+            "name": "Apple phase",
+            "status": "ACTIVE",
+            "createdBy": {
+                "_id": "66573cdb68a601817ff11f45",
+                "email": "admin@adamx.com",
+                "firstName": "Adamx",
+                "lastName": "Admin"
+            },
+            "isDeleted": false,
+            "createdAt": "2024-07-30T10:41:35.815Z",
+            "updatedAt": "2024-07-30T10:41:35.815Z",
+            "__v": 0
+        }
+    ],
+    "message": "Stage listed successfully!",
+    "success": true
+}
+23.51.47.803 [main] INFO  api.test.UserTests2 - *************Stage fetched successfully**************
+]]></system-out>
+  </testcase>
+</testsuite>
